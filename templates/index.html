@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deadline</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
-<body>
-    <h1>Welcome to Deadline!</h1>
-    <p>Your personal study planner.</p>
+
+<body class="container">
+    <main>
+        <h1>Welcome to Deadline!</h1>
+        <p>Your personal study planner.</p>
+        
+        <div class="dashboard">
+            <div class="card">
+                <h2>Upcoming Assignments</h2>
+                <p>No assignments yet.</p>
+            </div>
+
+            <div class="card">
+                <h2>My Classes</h2>
+                <p>No classes added.</p>
+            </div>
+        </div>
+
+    </main>
 </body>
+
 </html>
