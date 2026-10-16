@@ -1,0 +1,45 @@
+body {
+    background-color: #111816;
+    font-family: Arial, sans-serif;
+    color: #e4dbc9;
+    padding : 30px;
+}
+
+h1 {
+    color:#e4dbc9;
+}
+h2 {
+    color: s#e4dbc9;
+}
+p{
+    color:rgb(242, 235, 226);
+}
+
+.card {
+    background-color: #323c30;
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 600px){
+    body{
+        padding: 20px;
+    }
+
+    .dashboard {
+        flex-direction: column;
+    }
+}
